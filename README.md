@@ -12,17 +12,14 @@ Current focus / goals
 
 Featured
 
--   Quant-Core Engine (scratch logistic regression + eval suite)\
-    https://github.com/cotenthusiast/quant-core-engine
+-   Logistic Regression From Scratch\
+    https://github.com/cotenthusiast/logistic-regression-from-scratch
 
--   Polynomial Regression From Scratch\
+-   Linear and Polynomial Regression From Scratch\
     https://github.com/cotenthusiast/polynomial-regression-from-scratch
 
 -   Data Analyzer CLI\
     https://github.com/cotenthusiast/data-analyzer-cli
-
--   Anime Recommender (WIP)\
-    https://github.com/cotenthusiast/anime-recommender
 
 Tech\
 Python, Java, NumPy, Pandas, Matplotlib, Git
