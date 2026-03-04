@@ -1,25 +1,18 @@
 Hi, I'm Karl 👋
+Software Engineering student at Queen's University Belfast, focused on ML research and building from first principles.
 
-Software Engineering student (UK) building practical Python projects in data + ML with clean structure and reproducible workflows.
-
-Current focus / goals
-
--   Build strong fundamentals by implementing core ML algorithms from scratch (so models aren't a black box)
-
--   Ship clean, modular projects with clear READMEs, scripts, and reproducible results
-
--   Grow a consistent open-source portfolio with progressively larger end-to-end projects
+Current focus
+-   Implementing core ML models from scratch to build deep understanding
+-   Exploring LLM evaluation robustness and benchmark reliability
+-   Shipping reproducible research with clean code, scripts, and detailed reports
 
 Featured
-
+-   Mitigating MCQ Selection Bias in LLMs via Two-Stage Prompting\
+    https://github.com/cotenthusiast/two-prompt-research
+-   Multilayer Perceptron From Scratch (NumPy, Fashion-MNIST)\
+    https://github.com/cotenthusiast/neural-network-from-scratch
 -   Logistic Regression From Scratch\
     https://github.com/cotenthusiast/logistic-regression-from-scratch
 
--   Linear and Polynomial Regression From Scratch\
-    https://github.com/cotenthusiast/polynomial-regression-from-scratch
-
--   Data Analyzer CLI\
-    https://github.com/cotenthusiast/data-analyzer-cli
-
 Tech\
-Python, Java, NumPy, Pandas, Matplotlib, Git
+Python, NumPy, Pandas, Matplotlib, Git
