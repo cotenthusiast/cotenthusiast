@@ -9,7 +9,7 @@ Exploring benchmark reliability and robustness in language models
 Featured
 
 Mitigating MCQ Selection Bias in LLMs via Two-Stage Prompting
-https://github.com/cotenthusiast/two-prompt-research
+https://github.com/cotenthusiast/two-stage-prompting-research
 Multilayer Perceptron From Scratch (NumPy, Fashion-MNIST)
 https://github.com/cotenthusiast/neural-network-from-scratch
 Logistic Regression From Scratch
