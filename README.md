@@ -1,19 +1,27 @@
-Hi, I'm Karl 👋
-Software Engineering student at Queen's University Belfast, focused on ML research and building from first principles.
-Current focus
+# Hi, I'm Karl
 
-Conducting reproducible LLM evaluation research with clean experiment pipelines
-Implementing core ML models from scratch to build deep understanding
-Exploring benchmark reliability and robustness in language models
+Software Engineering student at Queen's University Belfast, focused on ML robustness, LLM evaluation, and building systems from first principles.
 
-Featured
+## Current Work
 
-Mitigating MCQ Selection Bias in LLMs via Two-Stage Prompting
-https://github.com/cotenthusiast/two-stage-prompting-research
-Multilayer Perceptron From Scratch (NumPy, Fashion-MNIST)
-https://github.com/cotenthusiast/neural-network-from-scratch
-Logistic Regression From Scratch
-https://github.com/cotenthusiast/logistic-regression-from-scratch
+* Investigating positional bias in multiple-choice LLM evaluation using two-stage prompting and mitigation baselines.
+* Running open-source model generalization experiments on Kelvin2 HPC with Qwen 2.5 models.
+* Contributing to a survey on LLM/MLLM robustness.
 
-Tech
-Python, NumPy, Pandas, Matplotlib, PyTorch, Git, LaTeX
+## Featured Projects
+
+* **Two-Stage Prompting for MCQ Evaluation**
+  Research project evaluating whether decomposing MCQ answering into free-text reasoning and option matching reduces positional bias.
+
+* **MCQ Bias Generalization Experiments**
+  Open-source model experiments testing whether MCQ bias-mitigation methods generalize across model scale, dataset, and method family.
+
+* **Multilayer Perceptron from Scratch**
+  NumPy-only neural network trained on Fashion-MNIST, with reproducible training artifacts and evaluation.
+
+* **Logistic Regression from Scratch**
+  From-scratch implementation focused on optimization, decision boundaries, and reproducible experiment outputs.
+
+## Tech
+
+Python · NumPy · PyTorch · Hugging Face · LaTeX · Git · Linux · Bash · Docker
