@@ -1,27 +1,31 @@
 # Hi, I'm Karl
 
-Software Engineering student at Queen's University Belfast, focused on ML robustness, LLM evaluation, and building systems from first principles.
+Computer Science student at Queen's University Belfast, interested in machine learning, research, and systems.
 
 ## Current Work
 
-* Investigating positional bias in multiple-choice LLM evaluation using two-stage prompting and mitigation baselines.
-* Running open-source model generalization experiments on Kelvin2 HPC with Qwen 2.5 models.
-* Contributing to a survey on LLM/MLLM robustness.
+- **Amadeus Counterpoint** — investigating compositional behavioral modeling under unseen dyadic interaction, using chess as a controlled testbed.
+- **ChoiceBench** — first-author research on accuracy and order sensitivity in multiple-choice LLM evaluation, currently available as an arXiv preprint and submitted through ACL Rolling Review.
+- Building neural models and supporting infrastructure from first principles, with a current focus on chess, transformers, and representation learning.
 
-## Featured Projects
+## Selected Projects
 
-* **Two-Stage Prompting for MCQ Evaluation**
-  Research project evaluating whether decomposing MCQ answering into free-text reasoning and option matching reduces positional bias.
+- **[ChoiceBench](https://github.com/cotenthusiast/choicebench)**  
+  A reproducible framework for evaluating positional and option-order sensitivity in multiple-choice LLM evaluation across models, datasets, and mitigation strategies.
 
-* **MCQ Bias Generalization Experiments**
-  Open-source model experiments testing whether MCQ bias-mitigation methods generalize across model scale, dataset, and method family.
+- **Amadeus Counterpoint**  
+  A neural chess research project studying whether independently learned behavioral representations of two players can compose to reproduce their unseen interactions.
 
-* **Multilayer Perceptron from Scratch**
-  NumPy-only neural network trained on Fashion-MNIST, with reproducible training artifacts and evaluation.
+- **Tokenizer & Language Model from Scratch**  
+  Byte-level BPE tokenization and decoder-only transformer work focused on understanding the full language-modeling stack from first principles.
 
-* **Logistic Regression from Scratch**
-  From-scratch implementation focused on optimization, decision boundaries, and reproducible experiment outputs.
+- **Susume**  
+  An anime recommendation system exploring collaborative filtering and matrix-factorization approaches.
+
+## Research Interests
+
+Machine learning · Behavioral modeling · Representation learning · LLM evaluation · Neural chess · Robustness
 
 ## Tech
 
-Python · NumPy · PyTorch · Hugging Face · LaTeX · Git · Linux · Bash · Docker
+Python · PyTorch · Java · NumPy · Linux · Bash · Git · LaTeX · C++
