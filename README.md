@@ -2,18 +2,16 @@
 
 I'm a Computer Science student at Queen's University Belfast working on machine learning research.
 
-Most of my work sits somewhere between **model behaviour, representation learning, evaluation, and ML systems**. I like building experiments from the ground up and understanding what is actually happening beneath the abstractions I use.
-
 ## Research
 
 ### Amadeus: Counterpoint
 Studying whether models of individual behaviour remain faithful when the people they model are placed into **previously unseen interactions**.
 
-I use chess as a controlled setting: train representations of real players independently, then test whether those representations compose correctly when the corresponding players meet.
+<!--I use chess as a controlled setting: train representations of real players independently, then test whether those representations compose correctly when the corresponding players meet.-->
 
 **Python · PyTorch · Chess · SLURM/HPC**
 
-Submitted to **AAMAS 2027**.
+Submitted to **AAMAS 2027**, arXiv pending moderation
 
 ### ChoiceBench
 Researching the relationship between **accuracy and option-order sensitivity** in multiple-choice LLM evaluation.
@@ -24,12 +22,12 @@ ChoiceBench provides the experimental framework behind the study, supporting mul
 
 [Repository](https://github.com/cotenthusiast/choicebench) · [Paper](https://arxiv.org/abs/2608.11947)
 
-## Other things I've built
+## Other Projects
 
 ### [Neural Network from Scratch](https://github.com/cotenthusiast/neural-network-from-scratch)
 A multilayer perceptron implemented directly in NumPy, including forward propagation, backpropagation, optimisation, checkpoints, and controlled experiments.
 
-### Language Model from Scratch
+### [Language Model from Scratch](https://github.com/cotenthusiast/mini-gpt)
 Byte-pair tokenisation and decoder-only transformer work aimed at understanding the language-modelling stack from first principles.
 
 ### [Susume](https://github.com/cotenthusiast/susume)
