@@ -1,31 +1,40 @@
 # Hi, I'm Karl
 
-Computer Science student at Queen's University Belfast, interested in machine learning, research, and systems.
+I'm a Computer Science student at Queen's University Belfast working on machine learning research.
 
-## Current Work
+Most of my work sits somewhere between **model behaviour, representation learning, evaluation, and ML systems**. I like building experiments from the ground up and understanding what is actually happening beneath the abstractions I use.
 
-- **Amadeus Counterpoint** — investigating compositional behavioral modeling under unseen dyadic interaction, using chess as a controlled testbed.
-- **ChoiceBench** — first-author research on accuracy and order sensitivity in multiple-choice LLM evaluation, currently available as an arXiv preprint and submitted through ACL Rolling Review.
-- Building neural models and supporting infrastructure from first principles, with a current focus on chess, transformers, and representation learning.
+## Research
 
-## Selected Projects
+### Amadeus: Counterpoint
+Studying whether models of individual behaviour remain faithful when the people they model are placed into **previously unseen interactions**.
 
-- **[ChoiceBench](https://github.com/cotenthusiast/choicebench)**  
-  A reproducible framework for evaluating positional and option-order sensitivity in multiple-choice LLM evaluation across models, datasets, and mitigation strategies.
+I use chess as a controlled setting: train representations of real players independently, then test whether those representations compose correctly when the corresponding players meet.
 
-- **Amadeus Counterpoint**  
-  A neural chess research project studying whether independently learned behavioral representations of two players can compose to reproduce their unseen interactions.
+**Python · PyTorch · Chess · SLURM/HPC**
 
-- **Tokenizer & Language Model from Scratch**  
-  Byte-level BPE tokenization and decoder-only transformer work focused on understanding the full language-modeling stack from first principles.
+Submitted to **AAMAS 2027**.
 
-- **Susume**  
-  An anime recommendation system exploring collaborative filtering and matrix-factorization approaches.
+### ChoiceBench
+Researching the relationship between **accuracy and option-order sensitivity** in multiple-choice LLM evaluation.
 
-## Research Interests
+ChoiceBench provides the experimental framework behind the study, supporting multiple mitigation strategies, benchmarks, API providers, local models, reproducible HPC execution, and analysis.
 
-Machine learning · Behavioral modeling · Representation learning · LLM evaluation · Neural chess · Robustness
+**Python · PyTorch · Hugging Face · vLLM · SLURM/HPC**
 
-## Tech
+[Repository](https://github.com/cotenthusiast/choicebench) · [Paper](https://arxiv.org/abs/2608.11947)
 
-Python · PyTorch · Java · NumPy · Linux · Bash · Git · LaTeX · C++
+## Other things I've built
+
+### [Neural Network from Scratch](https://github.com/cotenthusiast/neural-network-from-scratch)
+A multilayer perceptron implemented directly in NumPy, including forward propagation, backpropagation, optimisation, checkpoints, and controlled experiments.
+
+### Language Model from Scratch
+Byte-pair tokenisation and decoder-only transformer work aimed at understanding the language-modelling stack from first principles.
+
+### [Susume](https://github.com/cotenthusiast/susume)
+An anime recommendation system exploring collaborative filtering and matrix-factorisation methods.
+
+## Tools
+
+`Python` `PyTorch` `NumPy` `Hugging Face` `vLLM` `Linux` `Bash` `Git` `SLURM/HPC` `GitHub Actions` `Java` `C++` `LaTeX`
