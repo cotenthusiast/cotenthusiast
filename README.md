@@ -1,4 +1,4 @@
-# Hi, I'm Karl
+<!--# Hi, I'm Karl -->>
 
 CS student at Queen's University Belfast, doing machine learning research.
 
@@ -12,7 +12,7 @@ CS student at Queen's University Belfast, doing machine learning research.
 
 ## Research
 
-### [Amadeus Counterpoint](https://github.com/cotenthusiast/amadeus-counterpoint) — *What happens when models of people meet?*
+### [Amadeus Counterpoint](https://github.com/cotenthusiast/amadeus-counterpoint): *What happens when models of people meet?*
 
 If you model two people separately, each learned only from their interactions with *other* people, can you put the two models together and reproduce how they interact with **each other**?
 
@@ -30,7 +30,7 @@ Chess is the controlled testbed: eight elite players, with every direct game bet
 
 ---
 
-### [ChoiceBench](https://github.com/cotenthusiast/choicebench) — *A model can be accurate without being consistent*
+### [ChoiceBench](https://github.com/cotenthusiast/choicebench): *A model can be accurate without being consistent*
 
 LLM multiple-choice scores mix up knowledge with sensitivity to the order the options appear in. Hiding option labels while the model commits to an answer, or scoring each option in isolation (unbiased by construction), does **not** reliably improve accuracy, while cyclic permutation often does. Removing positional influence and gaining accuracy turn out to be different things.
 
