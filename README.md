@@ -4,7 +4,7 @@ CS student at Queen's University Belfast, doing machine learning research.
 
 <!--I study the gap between how models are **measured** and how they actually **behave** — what happens when a model is moved outside the conditions it was trained or evaluated under.-->
 
-[Papers](#papers) · [ORCID] (https://orcid.org/0009-0000-0016-6121) · [LinkedIn](https://www.linkedin.com/in/karl-hanna-88919a396/) · [arXiv](https://arxiv.org/a/hanna_k_1) <!-- TODO: check arXiv author-page URL; add email if you want recruiters to reach you -->
+[ORCID](https://orcid.org/0009-0000-0016-6121) · [LinkedIn](https://www.linkedin.com/in/karl-hanna-88919a396/) · [arXiv](https://arxiv.org/a/hanna_k_1) <!-- TODO: check arXiv author-page URL; add email if you want recruiters to reach you -->
 
 **Currently:** looking for a 12-month ML research / research engineering placement starting June 2027 / September 2027.
 
