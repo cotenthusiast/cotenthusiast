@@ -8,6 +8,8 @@ CS student at Queen's University Belfast, doing machine learning research.
 
 **Currently:** looking for a 12-month ML research / research engineering placement starting June 2027 / September 2027.
 
+---
+
 ## Research
 
 ### [Amadeus Counterpoint](https://github.com/cotenthusiast/amadeus-counterpoint): *What happens when models of people meet?*
