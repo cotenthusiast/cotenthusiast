@@ -56,11 +56,9 @@ A planned ML stack built from first principles, from tensor operations up to a c
 - **[CoInfer](https://github.com/cotenthusiast/CoInfer)** · *planned*: an LLM inference engine (autoregressive decoding, KV caching, batching and scheduling), to be built in parallel with CoTorch's CUDA backend.
 - **[CoHarness](https://github.com/cotenthusiast/CoHarness)** · *planned*: a coding-agent harness covering model integration, tool calling, context management and agent loops.
 
-Earlier from-scratch work: [mini-gpt](https://github.com/cotenthusiast/mini-gpt) · [BPE tokenizer](https://github.com/cotenthusiast/BPE-tokenizer) · [NumPy neural network](https://github.com/cotenthusiast/neural-network-from-scratch)
+Earlier from-scratch work: [mini-gpt](https://github.com/cotenthusiast/mini-gpt) · [BPE tokenizer](https://github.com/cotenthusiast/BPE-tokenizer) · [NumPy neural network](https://github.com/cotenthusiast/neural-network-from-scratch)<img align="right" src="koi/koi.gif" width="285" alt="My koi" />
 
 ---
-
-<img align="right" src="koi/koi.gif" width="170" alt="My koi" />
 
 - **Languages:** Python · C++ · Java · Bash
 - **ML & research:** PyTorch · NumPy · Hugging Face · vLLM
