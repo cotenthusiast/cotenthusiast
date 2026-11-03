@@ -20,8 +20,17 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - uses: yalongwastaken/git-koi@7305e9b1fadee6f43d3b4fa543a25d4cde79856e # v1.0.2
         with:
-          body: white
+          body: asagi
           output-dir: koi
+      - name: Trim transparent padding from the koi
+        shell: bash
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq --no-install-recommends imagemagick
+          # Smallest box that contains the fish in any frame, so every frame is cropped identically.
+          box=$(convert koi/koi.gif -coalesce -alpha extract -evaluate-sequence max -format '%@' info:)
+          convert koi/koi.gif -coalesce -crop "$box" +repage -layers optimize koi/koi.tmp.gif
+          mv koi/koi.tmp.gif koi/koi.gif
       - name: Commit the koi if it changed
         shell: bash
         run: |
