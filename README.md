@@ -60,8 +60,8 @@ Earlier from-scratch work: [mini-gpt](https://github.com/cotenthusiast/mini-gpt)
 
 ---
 
+<img align="right" src="koi/koi.gif" width="170" alt="My koi" />
+
 - **Languages:** Python · C++ · Java · Bash
 - **ML & research:** PyTorch · NumPy · Hugging Face · vLLM
 - **Infrastructure:** Linux · SLURM/HPC · Git · CI (GitHub Actions) · LaTeX
-
-<p align="right"><img src="koi/koi.gif" width="112" alt="" /></p>
